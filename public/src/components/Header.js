@@ -1,6 +1,6 @@
 import { useTheme } from "../context/ThemeContext";
 
-function Button() {
+function Header() {
 	const { theme, setTheme } = useTheme();
 
 	return (
@@ -14,4 +14,4 @@ function Button() {
 	);
 }
 
-export default Button;
+export default Header;
